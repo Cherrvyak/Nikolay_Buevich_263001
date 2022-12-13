@@ -1,0 +1,524 @@
+@media screen and (max-width : 8800px) {
+
+    body {
+        font-family: 'Play', sans-serif;
+        background-color:#121212;
+        position: absolute;
+        width:100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .header {
+        position:sticky;
+        top: -2px;
+        z-index: 6;
+        display: flex;
+        background-color:rgb(255, 255, 255);
+        height: 60px;
+    }
+
+    .picture {
+        height: 75px;
+        width: 100%;
+        background-color: rgb(240, 6, 6);
+    }
+    
+    .space {
+        width: 38%;
+    }
+    
+    .logojpg {
+        position: absolute;
+        z-index: 6;
+        top:7px;
+        left: 8%;
+        align-items: center;
+        height: 138px;
+    }
+    
+    .what {
+        vertical-align: center;
+        width: 62%;
+    }
+    
+    .list {
+        list-style-type: none;
+        height: 32px;
+        margin-right: 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .point {
+        margin-top: -16px;
+        height: 25px;
+        font-size: 185%;
+        text-align: center;
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 700;
+        width: 185px;
+    }
+    
+    .main {
+        display: grid;
+        grid-template: 1fr 1fr 1fr 1fr max-content max-content max-content  / 15% repeat(6 , 1fr) 15%; 
+        height: max-content;
+    }
+
+    .main_picture {
+        width: 100%;
+        grid-area: 1 / 1 / 5 / 9 ;
+        z-index: 1;
+    }
+
+    .motivation_text_main {
+        margin-left: -80px;
+        padding-right: 5%;
+        font-size: 220%;
+        text-shadow: 0px 0px 20px rgb(255, 255, 255);
+        color: rgb(53, 30, 13);
+        grid-area:  2/ 5 / 5 / span 4 ;
+        z-index: 5;
+    }
+
+    .UH {
+        font-size: 185%;
+        margin-bottom: 10px;
+        line-height:1;
+    }
+
+    .small {
+        border-radius: 42px;
+        font-family: 'Exo 2';
+        margin: 3%;
+        color:rgb(227, 227, 227);
+        margin-bottom: 7%;
+        font-size: 140% ;
+        text-align: center;
+        padding:  1%  5% ;
+    }
+
+    .small img {
+        border-radius: 20px;
+    }
+
+    #th {
+        color: rgb(204, 255, 0);
+    }
+
+    .motivation_text {
+        padding-top: 18px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 450% ;
+        
+        grid-area: 5 / 1 / 6 / span 8 ;
+    }
+
+    #small_1 {
+        background: linear-gradient(30deg,#ff840075, #ffffff7d);
+        grid-area: 6 / 2 / 6 / span 2 ;
+    }
+
+    #small_2 {
+        background: linear-gradient(30deg,rgba(77, 77, 77, 0.482), #ffffff00);
+        grid-area: 6 / 4 / 6 / span 2 ;
+    }
+
+    #small_3 {
+        background: linear-gradient(30deg,#ff840075, #ffffff7d);
+        grid-area: 6 / 6 / 6 / span 2 ;
+    }
+
+    #small_4 {
+        background: linear-gradient(30deg,rgba(77, 77, 77, 0.482), #ffffff00);
+        grid-area: 7 / 2 / 7 / span 2 ;
+    }
+
+    #small_5 {
+        background: linear-gradient(30deg,#ff840075, #ffffff7d);
+        grid-area: 7 / 4 / 7 / span 2 ;
+    }
+
+    #small_6 {
+        background: linear-gradient(30deg,rgba(77, 77, 77, 0.482), #ffffff00);
+        grid-area: 7 / 6 / 7 / span 2 ;
+    }
+
+    .first {
+        margin-top: 7%;
+        margin-bottom: 0%;
+        width: 100%;
+    }
+
+    .footer {
+        margin-top: 200px;
+        height: max-content;
+        font-size: 120%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 28px 5%;
+        margin-top: 40px;
+    }
+    
+    .footer_column {
+        height: max-content;
+        max-width: 26%;
+        min-width: 245px;
+    }
+    
+    .maps {
+        width: 100%;
+    }
+
+    .seti {
+        margin: 0 0.65%;
+        width: 39px;
+    }
+
+    .footer_about{
+        margin: 5px 0px;
+    }
+
+    .small img {
+        border-radius: 32px;
+    }
+
+}
+
+/*OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO*/
+
+
+
+@media screen and (max-width : 1198px) {
+
+    .header {
+        top: -8px;
+        height: 60px;
+    }
+
+    .picture {
+        height: 70px;
+    }
+    
+    .logojpg {
+        top:17px;
+        height: 118px;
+    }
+    
+    .what {
+        width: 72%;
+    }
+    
+    .list {
+        height: 32px;
+        margin-right: 10%;
+    }
+    
+    .point {
+        margin-top: 0px;
+        width: 115px;
+        height: 25px;
+        font-size: 135%;
+        font-weight: 700;
+    }
+    
+    .main {
+        grid-template: 1fr 1fr 1fr 1fr max-content max-content max-content  / repeat(6 , 1fr); 
+    }
+
+    .main_picture {
+        grid-area: 1 / 1 / 5 / 7 ;
+    }
+
+    .motivation_text_main {
+        margin-left: -60px;
+        font-size: 125%;
+        grid-area:  2/ 4 / 5 / span 3 ;
+    }
+
+    .UH {
+        font-size: 185%;
+        margin-bottom: 10px;
+    }
+
+    .small {
+        margin: 3%;
+        margin-bottom: 7%;
+        font-size: 120% ;
+        padding:  1%  5% ;
+    }
+
+    .motivation_text {
+        padding-top: 18px;
+        font-size: 250% ;
+        grid-area: 5 / 1 / 6 / span 6 ;
+    }
+
+    #small_1 {
+        grid-area: 6 / 1 / 6 / span 2 ;
+    }
+
+    #small_2 {
+        grid-area: 6 / 3 / 6 / span 2 ;
+    }
+
+    #small_3 {
+        grid-area: 6 / 5 / 6 / span 2 ;
+    }
+
+    #small_4 {
+        grid-area: 7 / 1 / 7 / span 2 ;
+    }
+
+    #small_5 {
+        grid-area: 7 / 3 / 7 / span 2 ;
+    }
+
+    #small_6 {
+        grid-area: 7 / 5 / 7 / span 2 ;
+
+    }
+
+    .footer {
+        font-size: 100%;
+        padding: 28px 5%;
+        margin-top: 40px;
+    }
+    
+    .maps {
+        width: 200px;
+    }
+
+    .seti {
+        margin: 0;
+        width: 39px;
+    }
+
+    .footer_about{
+        margin: 5px 0px;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Play:wght@400;700&display=swap');
+}
+
+
+@media screen and (max-width : 750px) {
+
+    
+    .picture {
+        height: 70px;
+        width: 100%;
+    }
+    
+    .header {
+        position: relative;
+        display: flex;
+        top: 0px;
+        background-color:rgb(255, 255, 255);
+        height: 40px;
+    }
+
+    .space {
+        width: 75%;
+    }
+    
+    .logojpg {
+        position: absolute;
+        z-index: 6;
+        left: 8%;
+        top: 7px;
+        width: fit-content;
+        align-items: center;
+        height: 11
+        20px;
+    }
+
+    .what:hover .list{
+        display: block;
+    }
+
+    .what{
+        background-image: url(https://cdn0.iconfinder.com/data/icons/right-direction-1/64/arrow-thin-down-512.png);
+        background-size:40px;
+        width: 30px;
+    }
+    
+    .list{
+        width: max-content;
+        height: max-content;
+        background-color: white;
+        display: none;
+        padding: 0;
+        margin-top: 39px;
+        list-style: none;
+    }
+    
+    .point {
+        margin-left: 10px;
+        font-size: 100%;
+        height: 30px;
+        width: 130px;
+        display: block;
+        text-align: left;
+    }
+
+    .main {
+        width: 100%;
+    }
+    
+    .main {
+        grid-template: 1fr 1fr 1fr 1fr max-content max-content max-content max-content  / repeat(4 , 1fr); 
+    }
+
+    .main_picture {
+        grid-area: 1 / 1 / 5 / 5;
+    }
+
+    .motivation_text {
+        font-size: 220%;
+        grid-area: 5 / 1 / 6 / span 6 ;
+    }
+
+    .motivation_text_main {
+        margin-left: -40px;
+        margin-top: -20px;
+        font-size: 110%;
+        padding-top: 0px;
+        grid-area: 2 / 3 / 5 / 5 ;
+    }
+
+    .small {
+        border-radius: 25px;
+        font-size: 150% ;
+        margin: 3% 8%;
+    }
+
+    .small img {
+        border-radius: 20px;
+    }
+
+    #small_1 {
+        grid-area: 6 / 1 / 6 / span 2 ;
+        margin-right: 2%;
+    }
+
+    #small_2 {
+        grid-area: 6 / 3 / 6 / span 2 ;
+        margin-left: 2%;
+    }
+
+    #small_3 {
+        background: linear-gradient(30deg,rgba(77, 77, 77, 0.482), #ffffff00);
+        grid-area: 7 / 1 / 7 / span 2 ;
+        margin-right: 2%;
+    }
+
+    #small_4 {
+        background: linear-gradient(30deg,#ff840075, #ffffff7d);
+        grid-area: 7 / 3 / 7 / span 2 ;
+        margin-left: 2%;
+    }
+
+    #small_5 {
+        grid-area: 8 / 1 / 8 / span 2 ;
+        margin-right: 2%;
+    }
+
+    #small_6 {
+        grid-area: 8 / 3 / 8 / span 2 ;
+        margin-left: 2%;
+
+    }
+
+    .footer {
+        font-size: 100%;
+        justify-content: space-between;
+    }
+
+
+}
+
+
+@media screen and (max-width : 576px) {
+    .space {
+        width: 65%;
+    }
+
+    .point {
+        margin-left: 20px;
+        font-size: 155%;
+        height: 36px;
+        width: 150px;
+    }
+
+    .motivation_text_main {
+        margin-left: -20px;
+        font-size: 90%;
+    }
+
+    .motivation_text {
+        font-size: 185%;
+    }
+
+    .small {
+        border-radius: 23px;
+        font-size: 90% ;
+        margin: 3% 8%;
+    }
+
+    .small img {
+        border-radius: 18px;
+    }
+
+}
+
+
+@media screen and (max-width : 480px) {
+    .main {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .space {
+        width: 56%;
+    }
+
+    .point {
+        margin-left: 20px;
+        font-size: 155%;
+        height: 36px;
+        width: 150px;
+    }
+
+    .motivation_text_main {
+        margin-left: -20px;
+        font-size: 75%;
+    }
+
+    .motivation_text {
+        font-size: 140%;
+    }
+
+    .small {
+        border-radius: 23px;
+        font-size: 90% ;
+        margin: 3% 8%;
+    }
+
+    .small img {
+        border-radius: 18px;
+    }
+
+
+
+}
